@@ -9,15 +9,21 @@
 * Copy the DR.CFG file under ux0:data/DERA00002/DATA
 
 # Controls
+D-Pad: Smooth and continuous steering (fixed the legacy tap-steering bug).
+R Trigger: Accelerate.
+L Trigger: Brake / Reverse.
+X (Cross): Nitro / Turbo (Also acts as Keypad-Enter for general menu navigation).
+Square (□): Shoot main weapons. Native Exit Shortcut (Sends 'Y' key to instantly quit races in the pause overlay
+Circle (○): Drop mines.
+Triangle (△): Horn / "space"
+  
+## 📋 How to bypass the Name / Save Profile screens
+Since the native Vita OS keyboard cannot bind to this specific DOS emulator layout, follow these simple steps to easily bypass the profile creation or save-game text fields:
 
-* Left joystick: turn left and right
-* Triangle: drop mine
-* Circle
-* Square: brake
-* Cross: accept on the menus and acelerate in race
-* Select: is similar thant ESC in the original game
-* R1: turbo
-* L1: minigun
+1. When the game prompts you to type a name, press **Triangle (△)** (this injects a character/space into the empty text box).
+2. Press **X (Cross)** to accept and confirm (sends `Keypad-Enter`).
+3. Your profile or save slot will be instantly created or updated without needing a physical keyboard.
+
 
 # dRally
 
