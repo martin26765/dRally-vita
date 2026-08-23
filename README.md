@@ -24,7 +24,7 @@
 ### 📂 Folder Structure Reference
 Your Vita directory must look exactly like this:
 
-
+```text
 ux0:data/
 └── DERA00002/
     └── DATA/
@@ -38,17 +38,18 @@ ux0:data/
         ├── ENDANI.HAF
 			ENDANI0.HAF
 			SANIM.HAF
+```
 	
-
 # Controls
-D-Pad: Smooth and continuous steering (fixed the legacy tap-steering bug).
+```
+D-Pad/LEFT analog: steering
 R Trigger: Accelerate.
 L Trigger: Brake / Reverse.
 X (Cross): Nitro / Turbo (Also acts as Keypad-Enter for general menu navigation).
 Square (□): Shoot main weapons. Native Exit Shortcut (Sends 'Y' key to instantly quit races in the pause overlay
 Circle (○): Drop mines.
 Triangle (△): Horn / "space"
-  
+```
 ## 📋 How to bypass the Name / Save Profile screens
 Since the native Vita OS keyboard cannot bind to this specific DOS emulator layout, follow these simple steps to easily bypass the profile creation or save-game text fields:
 
