@@ -2,11 +2,43 @@
 
 * Base on work of urpx : https://github.com/urxp/dRally
 
-# Instalation for PSVITA
+### 🎮 Installation Guide
 
-* Install the vpk file under releases
-* Copy all the original game assets under ux0:data/DERA00002/DATA
-* Copy the DR.CFG file under ux0:data/DERA00002/DATA
+#### Step 1: Install the Game App
+* Download and install the **.vpk** file on your PlayStation Vita using VitaShell.
+
+#### Step 2: Prepare the Data Files
+* Download `death rally data template.zip` from the **Releases** section.
+* Extract it and copy the `data` folder directly into the root of your **ux0:** partition. 
+* This automatically creates the path `ux0:data/DERA00002/DATA/` with the pre-configured `cdrom.ini`.
+
+#### Step 3: Copy Steam Game Files
+* Open your **Death Rally** installation folder on your PC (via Steam).
+* Copy all the game files from your PC.
+* Paste them directly inside `ux0:data/DERA00002/DATA/` on your Vita.
+
+#### Step 4: Move the Cinematic Files
+* Inside the **DATA** folder on your Vita, locate the 3 files ending in **.HAF**.
+* Move those 3 **.HAF** files into the **CINEM** folder.
+
+### 📂 Folder Structure Reference
+Your Vita directory must look exactly like this:
+
+
+ux0:data/
+└── DERA00002/
+    └── DATA/
+    |--ENGINE.BPA
+    |--IBFILES.BPA
+    |--MENU.BPA
+    |--MUSICS.BPA
+    |--TR[0-9].BPA
+    |--CDROM.INI
+        ├── CINEM/
+        ├── ENDANI.HAF
+			ENDANI0.HAF
+			SANIM.HAF
+	
 
 # Controls
 D-Pad: Smooth and continuous steering (fixed the legacy tap-steering bug).
@@ -25,34 +57,9 @@ Since the native Vita OS keyboard cannot bind to this specific DOS emulator layo
 3. Your profile or save slot will be instantly created or updated without needing a physical keyboard.
 
 
-# dRally
 
-The main goal of this project is to create a port of Death Rally (1996) running natively on Linux and BSD based operating systems.
 
-#### Linux requirements
-* GCC/Clang C compiler
-* GNU/Make
-* SDL2
 
-#### You need original game assets
-
-    dRally
-    |--CINEM
-    |  |--DR.IDF
-    |  |--ENDANI.HAF
-    |  |--ENDANI0.HAF
-    |  |--SANIM.HAF
-	|--CDROM.INI        [1]
-    |--ENGINE.BPA
-    |--IBFILES.BPA
-    |--MENU.BPA
-    |--MUSICS.BPA
-    |--TR[0-9].BPA
-
-    Make sure these file/dir names in dRally directory are in uppercase.
-
-    [1] CDROM.INI contains relative location of CINEM directory (./CINEM)
-		Create it if it doesnt exits, Type this inside: ux0:data/DERA00002/DATA/dRally/CINEM 
 		
 
 
