@@ -52,6 +52,7 @@ The main goal of this project is to create a port of Death Rally (1996) running 
     Make sure these file/dir names in dRally directory are in uppercase.
 
     [1] CDROM.INI contains relative location of CINEM directory (./CINEM)
+		Create it if it doesnt exits, Type this inside: ux0:data/DERA00002/DATA/dRally/CINEM 
+		
 
-#### Work in progress
-*   Multiplayer not available 
+
