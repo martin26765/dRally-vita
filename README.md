@@ -5,8 +5,8 @@
 # Instalation for PSVITA
 
 * Install the vpk file under releases
-* Copy all the original game assets under ux0:data/DERA00002/
-* Copy the DR.CFG file under ux0:data/DERA00002/
+* Copy all the original game assets under ux0:data/DERA00002/DATA
+* Copy the DR.CFG file under ux0:data/DERA00002/DATA
 
 # Controls
 D-Pad: Smooth and continuous steering (fixed the legacy tap-steering bug).
