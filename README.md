@@ -1,6 +1,9 @@
 # dRally Vita 
 
-* Base on work of urpx : https://github.com/urxp/dRally
+## 👥 Credits & Acknowledgments
+This project is a performance-focused fork and would not be possible without the incredible work of the original developers:
+* **Original PS Vita Port:** Developed by **Enrique Somolinos** ([@enriquesomolinos](https://github.com/enriquesomolinos/dRally-vita))).
+* **Open Source Engine:** Based on the source code reconstruction by **urxp** ([/dRally](https://github.com/urxp/dRally).
 
 ### 🎮 Installation Guide
 
